@@ -100,9 +100,9 @@ class Program
     public static void VeriEkle()
     {
         ad_dizi[sayac] = getad();
-        //soyad_dizi[sayac] = getsoyad();
-        //boy_dizi[sayac] = getboy();
-        //kilo_dizi[sayac]=getkilo();
+        soyad_dizi[sayac] = getsoyad();
+        boy_dizi[sayac] = getboy();
+        kilo_dizi[sayac]=getkilo();
         string _bmi = Bmi(boy_dizi[sayac], kilo_dizi[sayac]);
         yas_dizi[sayac] = getyas();
         Console.WriteLine($"\n BMI Skorunuz :{_bmi}\n ");
